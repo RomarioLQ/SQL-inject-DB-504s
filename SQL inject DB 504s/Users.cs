@@ -11,6 +11,8 @@ namespace SQL_inject_DB_504s
         public Guid Id { get; set; }
         public string Login { get; set; }
         public string Password { get; set; }
+
+
     }
 }
 // •

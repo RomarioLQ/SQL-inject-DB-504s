@@ -39,6 +39,7 @@ namespace SQL_inject_DB_504s
         {
             string login;
             string password;
+            string test;
 
             login = loginTB.Text;
             password = passwdTB.Text;
@@ -123,6 +124,11 @@ namespace SQL_inject_DB_504s
             }
 
             
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "Тестовый текст";
         }
     }
 }
